@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ain Renov Technical Services LLC | Renovation, Fit-Out & Maintenance Dubai</title>
+  <meta name="description" content="Ain Renov Technical Services LLC provides interior fit-out, renovation, maintenance, joinery, HVAC, metal & glass works, landscaping and civil works in Dubai and UAE." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Ain Renov home">
+      <img src="assets/1.png" alt="Ain Renov Technical Services" />
+      <span>AIN RENOV</span>
+    </a>
+    <button class="menu-toggle" aria-label="Open Menu">☰</button>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#clients">Clients</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-content reveal">
+      <p class="eyebrow">Renovate • Innovate • Maintain</p>
+      <h1>One Stop Solution for Renovation, Fit-Out & Maintenance</h1>
+      <p>Ain Renov Technical Services LLC delivers reliable residential, commercial and industrial solutions across the UAE, backed by over 20 years of combined industry experience.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#projects">View Projects</a>
+        <a class="btn" href="mailto:info@ainrenov.com">Request a Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section class="intro strip reveal">
+      <div>
+        <span class="section-kicker">Who we are</span>
+        <h2>Built for quality, safety and lasting value.</h2>
+      </div>
+      <p>Founded in 2024, Ain Renov is backed by experienced contractors and project coordinators with strong knowledge in interior design and fit-out, renovation and maintenance. We handle projects of all sizes with attention to detail, practical planning and client-focused delivery.</p>
+    </section>
+
+    <section class="split" id="about">
+      <div class="split-img reveal">
+        <img src="assets/4.png" alt="About Ain Renov" />
+      </div>
+      <div class="split-text reveal">
+        <span class="section-kicker">About Us</span>
+        <h2>Professional solutions for every building requirement.</h2>
+        <p>We specialize in transforming spaces through tailored fit-out, renovation and maintenance services for homes, offices, retail spaces and commercial facilities.</p>
+        <div class="stats">
+          <div><strong>20+</strong><span>Years combined experience</span></div>
+          <div><strong>2024</strong><span>Established in Dubai</span></div>
+          <div><strong>UAE</strong><span>Residential & commercial works</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="vision reveal">
+      <div class="card">
+        <h3>Our Vision</h3>
+        <p>To be a leading provider of reliable, high-quality solutions for interior fit-out, building renovation and maintenance, known for excellence, innovation and customer satisfaction.</p>
+      </div>
+      <div class="card">
+        <h3>Our Mission</h3>
+        <p>To deliver top-tier fit-out, maintenance and renovation solutions that enhance functionality, value and aesthetics while maintaining high standards of quality, safety and professionalism.</p>
+      </div>
+      <div class="card">
+        <h3>Core Values</h3>
+        <p>Excellence, integrity, client focus, teamwork, safety first and sustainability guide every project we undertake.</p>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="section-head reveal">
+        <span class="section-kicker">Our Services</span>
+        <h2>Complete technical services under one roof.</h2>
+      </div>
+      <div class="service-grid">
+        <article class="service reveal"><h3>Interior Design & Fit-Out</h3><p>Residential and commercial fit-out for villas, offices, apartments and retail spaces.</p></article>
+        <article class="service reveal"><h3>Custom Joinery & Carpentry</h3><p>Wardrobes, kitchen cabinets, display units, reception counters and wall cladding.</p></article>
+        <article class="service reveal"><h3>Renovation & Refurbishment</h3><p>Complete upgrades and selective improvements to modernize existing spaces.</p></article>
+        <article class="service reveal"><h3>Landscape & Swimming Pool</h3><p>Outdoor spaces, hardscape, greenery, water features and custom pool works.</p></article>
+        <article class="service reveal"><h3>HVAC Installation & Maintenance</h3><p>Cooling, ventilation and air quality solutions for comfort and efficiency.</p></article>
+        <article class="service reveal"><h3>Metal & Glass Works</h3><p>Partitions, railings, façade elements, decorative accents and custom fabrication.</p></article>
+        <article class="service reveal"><h3>Civil & Concrete Works</h3><p>Concrete works, blockwork, plastering, tiling, waterproofing and flooring.</p></article>
+        <article class="service reveal"><h3>MEP & Maintenance</h3><p>Electrical, plumbing, sanitary ware, gypsum, false ceiling and general maintenance.</p></article>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="section-head reveal">
+        <span class="section-kicker">Our Projects</span>
+        <h2>Recently completed and upcoming works.</h2>
+        <p>Projects are loaded from <strong>projects.json</strong>, so you can update the gallery regularly by adding new photos and project details.</p>
+      </div>
+      <div class="filters reveal">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="Retail Fit-Out">Retail</button>
+        <button class="filter" data-filter="Interior Fit-Out">Interior</button>
+        <button class="filter" data-filter="Metal & Glass Works">Metal</button>
+        <button class="filter" data-filter="Civil Works">Civil</button>
+        <button class="filter" data-filter="Upcoming Designs">Upcoming</button>
+      </div>
+      <div class="project-grid" id="projectGrid"></div>
+    </section>
+
+    <section id="clients" class="clients reveal">
+      <span class="section-kicker">Our Clients</span>
+      <h2>Trusted experience with leading brands and facilities.</h2>
+      <img src="assets/11.png" alt="Ain Renov client logos" />
+    </section>
+
+    <section class="cta reveal">
+      <h2>Planning a renovation or fit-out project?</h2>
+      <p>Share your requirement with us and our team will coordinate for a site visit, concept, quotation and execution plan.</p>
+      <a class="btn primary" href="https://wa.me/971589846228" target="_blank" rel="noopener">Chat on WhatsApp</a>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="contact-card reveal">
+        <span class="section-kicker">Contact Us</span>
+        <h2>Ain Renov Technical Services LLC</h2>
+        <p><strong>Mobile:</strong> <a href="tel:+971589846228">+971 589846228</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+97145755894">+971 4 5755894</a></p>
+        <p><strong>Email:</strong> <a href="mailto:info@ainrenov.com">info@ainrenov.com</a></p>
+        <p><strong>Website:</strong> <a href="https://www.ainrenov.com">www.ainrenov.com</a></p>
+        <p><strong>Address:</strong> P.O. Box No.: 237628, Karama, Dubai, UAE</p>
+      </div>
+      <form class="contact-form reveal" action="mailto:info@ainrenov.com" method="post" enctype="text/plain">
+        <input name="name" placeholder="Your Name" required />
+        <input name="email" placeholder="Email / Phone" required />
+        <select name="service">
+          <option>Interior Fit-Out</option>
+          <option>Renovation</option>
+          <option>Maintenance</option>
+          <option>Joinery</option>
+          <option>HVAC</option>
+          <option>Metal & Glass Works</option>
+        </select>
+        <textarea name="message" placeholder="Tell us about your project" rows="5"></textarea>
+        <button class="btn primary" type="submit">Send Inquiry</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Ain Renov Technical Services LLC. All rights reserved.</p>
+  </footer>
+
+  <div class="modal" id="projectModal" aria-hidden="true">
+    <div class="modal-box">
+      <button class="modal-close" aria-label="Close">×</button>
+      <img id="modalImg" src="" alt="" />
+      <div>
+        <p class="eyebrow" id="modalCat"></p>
+        <h3 id="modalTitle"></h3>
+        <p id="modalDesc"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
